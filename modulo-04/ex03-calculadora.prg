@@ -1,4 +1,4 @@
-PROCEDURE Main()
+FUNCTION Main()
 
    LOCAL cValorA, cValorB
    LOCAL nA, nB
@@ -13,7 +13,7 @@ PROCEDURE Main()
    ACCEPT TO cValorB
    nB := Val(cValorB)
 
-   ? "Digite a opera‡Æo (+, -, *, /, ^, R):"
+   ? "Digite a operaï¿½ï¿½o (+, -, *, /, ^, R):"
    ACCEPT TO cOperacao
 
    DO CASE
@@ -32,7 +32,7 @@ PROCEDURE Main()
 
       CASE Upper(cOperacao) == "/"
          IF nB == 0
-            ? "Erro: divisÆo por zero!"
+            ? "Erro: divisï¿½o por zero!"
          ELSE
             nResultado := nA / nB
             ? "Resultado: " + Str(nResultado, 10, 2)
@@ -47,8 +47,8 @@ PROCEDURE Main()
          ? "Raiz quadrada: " + Str(nResultado, 10, 2)
 
       OTHERWISE
-         ? "Opera‡Æo inv lida!"
+         ? "Operaï¿½ï¿½o invï¿½lida!"
 
    ENDCASE
 
-RETURN
+RETURN NIL

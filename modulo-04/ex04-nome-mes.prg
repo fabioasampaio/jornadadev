@@ -1,9 +1,9 @@
-PROCEDURE Main()
+FUNCTION Main()
 
    LOCAL cMes
    LOCAL nMes
 
-   ? "Digite o n£mero do mˆs (1 a 12):"
+   ? "Digite o nï¿½mero do mï¿½s (1 a 12):"
    ACCEPT TO cMes
    nMes := Val(cMes)
 
@@ -16,7 +16,7 @@ PROCEDURE Main()
          ? "Fevereiro"
 
       CASE nMes == 3
-         ? "Mar‡o"
+         ? "Marï¿½o"
 
       CASE nMes == 4
          ? "Abril"
@@ -46,8 +46,8 @@ PROCEDURE Main()
          ? "Dezembro"
 
       OTHERWISE
-         ? "Mˆs inv lido."
+         ? "Mï¿½s invï¿½lido."
 
    ENDCASE
 
-RETURN
+RETURN NIL

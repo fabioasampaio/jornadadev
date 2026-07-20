@@ -1,4 +1,4 @@
-PROCEDURE Main()
+FUNCTION Main()
 
    LOCAL cIdade, cDependentes
    LOCAL nIdade, nDependentes
@@ -9,7 +9,7 @@ PROCEDURE Main()
    ACCEPT TO cIdade
    nIdade := Val(cIdade)
 
-   ? "Digite o n£mero de dependentes:"
+   ? "Digite o nï¿½mero de dependentes:"
    ACCEPT TO cDependentes
    nDependentes := Val(cDependentes)
 
@@ -34,4 +34,4 @@ PROCEDURE Main()
    ? "Dependentes:    " + Str(nDependentes, 3)
    ? "Valor total:    R$ " + Str(nTotal, 10, 2)
 
-RETURN
+RETURN NIL

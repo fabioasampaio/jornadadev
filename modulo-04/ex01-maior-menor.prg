@@ -1,4 +1,4 @@
-PROCEDURE Main()
+FUNCTIO Main()
 
    LOCAL cValor1, cValor2
    LOCAL nValor1, nValor2
@@ -27,4 +27,4 @@ PROCEDURE Main()
 
    ENDIF
 
-RETURN
+RETURN NIL

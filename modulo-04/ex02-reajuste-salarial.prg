@@ -1,4 +1,4 @@
-PROCEDURE Main()
+FUNCTION Main()
 
    LOCAL cSalario
    LOCAL nSalario
@@ -29,4 +29,4 @@ PROCEDURE Main()
    ? "Salário atual: R$ " + Str(nSalario, 10, 2)
    ? "Novo salário:  R$ " + Str(nNovoSalario, 10, 2)
 
-RETURN
+RETURN NIL
